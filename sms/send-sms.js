@@ -1,5 +1,5 @@
-var accountSid = ;
-var authToken =;
+var accountSid;
+var authToken ;
 
 var client = require('twilio')(accountSid, authToken);
 
